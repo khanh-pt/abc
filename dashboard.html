@@ -1,0 +1,378 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no, shrink-to-fit=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="csrf-token" content="HglqcZoL60SiIjefwL3OM0f4BlwBr3VBaliEWbLp">
+<link rel="canonical" href="https://id.conco.online/dashboard">
+<meta name="app.content_locale" content="vi">
+<meta name="app.env" content="production">
+<meta name="app.lang" content="vi">
+<meta name="robots" content="index,follow" />
+<meta name="revisit-after" content="1 days">
+<title>Quản lý tài khoản</title>
+<meta name="title" content="Quản lý tài khoản" />
+<meta name="description" content="Đăng ký và tải võ lâm 2 private ngay hôm nay để cùng các bằng hữu chinh chiến giang hồ!" />
+<meta name="google-site-verification" content="cyL42TZOI1r8yW7TDX_86t8rYKZ2VWC2VI1BpbM0VzA" />
+<link rel="shortcut icon" href="https://id.conco.online/favicon.ico">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/app.css?id=170d9cf5a5bf73701861">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143429656-1" type="a69771df49ee2f3b48e5eaba-text/javascript"></script>
+<script type="a69771df49ee2f3b48e5eaba-text/javascript">
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', "UA-143429656-1");
+</script>
+
+<script type="a69771df49ee2f3b48e5eaba-text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TMMGRN6');</script>
+
+</head>
+<link rel="stylesheet" href="css/dashboard.css?id=4feeaaea8cfe5ec1aca3">
+<body class="dashboard ">
+<header class="navbar navbar-light bg-white justify-content-between fixed-top">
+<div class="container-fluid">
+
+<a class="navbar-brand" href="https://id.conco.online">
+<h3 class="mt-2">Conco</h3>
+</a>
+<ul class="navbar-nav flex-row ml-auto">
+<li class="nav-item">
+<a class="nav-link" href="javascript:void(0);">
+<span class="text-green font-weight-600">0 KNB</span>
+</a>
+</li>
+<li class="vertical-divider d-none d-md-block"></li>
+<li class="nav-item d-none d-md-block">
+<a class="nav-link" href="https://id.conco.online/logout" onclick="if (!window.__cfRLUnblockHandlers) return false; event.preventDefault();
+                   document.getElementById('logout-form').submit();" data-cf-modified-a69771df49ee2f3b48e5eaba-="">
+<i class="fa fa-sign-out"></i>
+Đăng xuất
+</a>
+<form id="logout-form" action="https://id.conco.online/logout" method="POST" style="display: none;">
+<input type="hidden" name="_token" value="HglqcZoL60SiIjefwL3OM0f4BlwBr3VBaliEWbLp"> </form>
+</li>
+<li class="nav-item left-menu-btn-control d-flex align-self-center d-xl-none">
+<a class="nav-link" href="javascript:void(0);">
+<i class="icon-menu"></i>
+</a>
+</li>
+</ul>
+</div>
+</header>
+<div class="container-fluid account-container">
+<nav class="left-menu">
+<ul class="nav flex-column dashboard-menu-right">
+<li class="nav-item">
+<a class="nav-link active" href="/dashboard">
+<i class="fas fa-address-card"></i>&nbsp;Thông tin cá nhân
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link " href="/account/security">
+<i class="icon-lock"></i>&nbsp;Bảo mật
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link " href="/payment">
+<i class="icon-wallet"></i>&nbsp;Nạp thẻ
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link " href="/payment/recharge">
+<i class="icon-share-alt"></i>&nbsp;Đổi xu
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link " href="/payment/history">
+<i class="icon-clock"></i>&nbsp;Lịch sử giao dịch
+</a>
+</li>
+<li class="nav-item d-sm-none">
+<a class="nav-link" href="https://id.conco.online/logout" onclick="if (!window.__cfRLUnblockHandlers) return false; event.preventDefault();
+                   document.getElementById('logout-form').submit();" data-cf-modified-a69771df49ee2f3b48e5eaba-="">
+<i class="icon-logout"></i>&nbsp;Đăng xuất
+</a>
+</li>
+</ul>
+</nav>
+<main class="main">
+<script type="a69771df49ee2f3b48e5eaba-text/javascript">
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<div class="fb-customerchat" attribution=setup_tool page_id="468896953866407" theme_color="#fa3c4c" logged_in_greeting="Chào mừng đến với thế giới kiếm hiệp! Nếu các hạ cần trợ giúp, xin hãy nhắn tin!" logged_out_greeting="Chào mừng đến với thế giới kiếm hiệp! Nếu các hạ cần trợ giúp, xin hãy nhắn tin!">
+</div>
+<div class="container">
+<div class="dashboard-container">
+<div class="dashboard-content">
+<div class="settings dashboard-panel">
+<div class="px-3 text-center">
+<h2>Thông tin cá nhân</h2>
+<p class="text-muted">
+Bao gồm thông tin cơ bản, như tên, ảnh đại diện và địa chỉ liên lạc của bạn.
+</p>
+</div>
+<hr>
+
+
+<div class="alert alert-warning" role="alert">
+Tài khoản của bạn chưa được bảo mật hoàn toàn, hãy xác minh địa chỉ email để bảo vệ tài khoản trong trường hợp quên mật khẩu.
+<div>
+<form class="d-inline" method="POST" action="https://id.conco.online/email/resend">
+<input type="hidden" name="_token" value="HglqcZoL60SiIjefwL3OM0f4BlwBr3VBaliEWbLp"> Nếu bạn vẫn chưa nhận được email xác minh,
+<button type="submit" class="btn btn-link p-0 m-0 align-baseline">
+nhấn vào đây để được gửi lại
+</button>.
+</form>
+</div>
+</div>
+<div class="alert alert-danger" role="alert">
+Tài khoản game của bạn hiện chưa được kích hoạt do bạn chưa xác thực email.
+</div>
+<div class="p-3">
+<h3 class="heading">Hồ sơ</h3>
+<p class="text-muted">Tên của bạn có thể hiển thị với người khác, nếu không muốn tiết lộ, bạn có thể dùng bí danh.</p>
+</div>
+<ul class="settings-list">
+<li class="setting-item" data-field-name="name">
+<div class="row info">
+<div class="col-3"><strong>Tên</strong></div>
+<div class="col-5">
+<strong class="content">
+callmemaybe
+</strong>
+</div>
+<div class="col-2">
+<span class="status">Đã lưu</span>
+</div>
+<div class="col-2 text-right">
+<i class="icon-arrow-right setting-action"></i>
+</div>
+</div>
+<div class="editable">
+<div class="form-group">
+<label for="name">Tên</label>
+<input id="name" type="text" class="form-control" spellcheck="false" autocomplete="off" name="name" value="callmemaybe">
+<div class="invalid-feedback"></div>
+</div>
+<div class="form-group text-right">
+<a class="btn btn-link setting-action-close">Hủy bỏ</a>
+<button class="btn btn-success setting-action-save mr-2">Lưu thay đổi</button>
+</div>
+</div>
+</li>
+<li class="setting-item">
+<div class="row info">
+<div class="col-3"><strong>Tên đăng nhập</strong></div>
+<div class="col-5">
+<strong class="content">
+callmemaybe
+</strong>
+</div>
+<div class="col-2">
+<span class="status">Đã lưu</span>
+</div>
+</div>
+</li>
+<li class="setting-item" data-field-name="gender">
+<div class="row info">
+<div class="col-3"><strong>Giới tính</strong></div>
+<div class="col-5">
+<strong class="content">
+Bí mật
+</strong>
+</div>
+<div class="col-2">
+<span class="status">Đã lưu</span>
+</div>
+<div class="col-2 text-right">
+<i class="icon-arrow-right setting-action"></i>
+</div>
+</div>
+<div class="editable">
+<div class="form-group">
+<label for="gender">Giới tính</label>
+<select class="form-control" name="gender"><option value="1">Nam</option><option value="2">Nữ</option><option value="0" selected="selected">Bí mật</option></select>
+<div class="invalid-feedback"></div>
+</div>
+<div class="form-group text-right">
+<a class="btn btn-link setting-action-close">Hủy bỏ</a>
+<button class="btn btn-success setting-action-save mr-2">Lưu thay đổi</button>
+</div>
+</div>
+</li>
+<li class="setting-item" data-field-name="dob">
+<div class="row info">
+<div class="col-3"><strong>Ngày sinh</strong></div>
+<div class="col-5">
+<strong class="content">
+Chưa cập nhật
+</strong>
+</div>
+<div class="col-2">
+<span class="status">Đã lưu</span>
+</div>
+<div class="col-2 text-right">
+<i class="icon-arrow-right setting-action"></i>
+</div>
+</div>
+<div class="editable">
+<div class="form-group">
+<label for="dob">Ngày sinh</label>
+<input id="dob" type="date" class="form-control" spellcheck="false" autocomplete="off" name="dob" value="">
+<div class="invalid-feedback"></div>
+</div>
+<div class="form-group text-right">
+<a class="btn btn-link setting-action-close">Hủy bỏ</a>
+<button class="btn btn-success setting-action-save mr-2">Lưu thay đổi</button>
+</div>
+</div>
+</li>
+<li class="setting-item" data-field-name="language">
+<div class="row info">
+<div class="col-3"><strong>Ngôn ngữ</strong></div>
+<div class="col">
+<strong class="content">
+Tiếng Việt
+</strong>
+</div>
+<div class="col-2">
+<span class="status">Đã lưu</span>
+</div>
+<div class="col-2 text-right">
+<i class="icon-arrow-right setting-action"></i>
+</div>
+</div>
+<div class="editable">
+<div class="form-group">
+<label for="language">Ngôn ngữ</label>
+<select class="form-control" name="language"><option value="vi" selected="selected">Tiếng Việt</option></select>
+<div class="invalid-feedback"></div>
+</div>
+<div class="form-group text-right">
+<a class="btn btn-link setting-action-close">Hủy bỏ</a>
+<button class="btn btn-success setting-action-save mr-2">Lưu thay đổi</button>
+</div>
+</div>
+</li>
+</ul>
+<hr>
+<div class="p-3">
+<h3 class="heading">Thông tin liên lạc</h3>
+<p class="text-muted">Chúng tôi sẽ liên hệ với bạn mỗi khi có cập nhật quan trọng dựa trên thông tin này.</p>
+</div>
+<ul class="settings-list">
+<li class="setting-item" data-field-name="phone_number">
+<div class="row info">
+<div class="col-3"><strong>Số điện thoại</strong></div>
+<div class="col-5">
+<strong class="content">
+Chưa cập nhật
+</strong>
+</div>
+<div class="col-2">
+<span class="status">Đã lưu</span>
+</div>
+<div class="col-2 text-right">
+<i class="icon-arrow-right setting-action"></i>
+</div>
+</div>
+<div class="editable">
+<div class="form-group">
+<label for="phone_number">Số điện thoại</label>
+<input id="phone_number" type="text" class="form-control" spellcheck="false" autocomplete="off" name="phone_number" value="">
+<div class="invalid-feedback"></div>
+</div>
+<div class="form-group text-right">
+<a class="btn btn-link setting-action-close">Hủy bỏ</a>
+<button class="btn btn-success setting-action-save mr-2">Lưu thay đổi</button>
+</div>
+</div>
+</li>
+<li class="setting-item" data-href="https://id.conco.online/account/change_email">
+<div class="row info">
+<div class="col-3"><strong>Email</strong></div>
+<div class="col-5">
+<strong class="content">
+<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="cbaa8ba9e5a8">[email&#160;protected]</a>
+ </strong>
+</div>
+<div class="col-2">
+<span class="status">Đã lưu</span>
+</div>
+<div class="col-2 text-right">
+<i class="icon-arrow-right setting-action"></i>
+</div>
+</div>
+</li>
+</ul>
+<hr>
+<div class="p-3">
+<h3 class="heading">Kết nối mạng xã hội</h3>
+<p class="text-muted">Bạn có thể dùng tài khoản đã liên kết để đăng nhập vào các dịch vụ của Conco.</p>
+</div>
+<ul class="settings-list">
+<li class="setting-item">
+<div class="row info">
+<div class="col-md-3 col-5 p-0 d-inline-flex align-items-center not-connect">
+<div class="social-circle-btn facebook">
+<i class="icon-social-facebook"></i>
+</div>
+<div class="social-name">Facebook</div>
+</div>
+<div class="col-md-6 col-5">
+<strong class="content">
+<span class="text-muted">Chưa kết nối</span>
+</strong>
+</div>
+<div class="col-md-3 col-2 text-right">
+<span onclick="if (!window.__cfRLUnblockHandlers) return false; oauthMapping.openPopup('facebook')" title="Kết nối" class="js-action icon-arrow-right" data-cf-modified-a69771df49ee2f3b48e5eaba-="">
+</span>
+</div>
+</div>
+</li>
+<li class="setting-item">
+<div class="row info">
+<div class="col-md-3 col-5 p-0 d-inline-flex align-items-center not-connect">
+<div class="social-circle-btn google">
+<i class="icon-social-google"></i>
+</div>
+<div class="social-name">Google</div>
+</div>
+<div class="col-md-6 col-5">
+<strong class="content">
+<span class="text-muted">Chưa kết nối</span>
+</strong>
+</div>
+<div class="col-md-3 col-2 text-right">
+<span onclick="if (!window.__cfRLUnblockHandlers) return false; oauthMapping.openPopup('google')" title="Kết nối" class="js-action icon-arrow-right" data-cf-modified-a69771df49ee2f3b48e5eaba-="">
+</span>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+<script data-cfasync="false" src="js/email-decode.min.js"></script><script src="js/app.js?id=7c162e00780db4239778" type="a69771df49ee2f3b48e5eaba-text/javascript"></script>
+<script src="js/rocket-loader.min.js" data-cf-settings="a69771df49ee2f3b48e5eaba-|49" defer=""></script></body>
+</html>
